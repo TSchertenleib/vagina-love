@@ -1,0 +1,443 @@
+/*! Place your custom styles here */
+
+
+/*Fonts*/
+
+
+@font-face {
+    font-family: dolly-bold;
+    src: url("fonts/dolly-bold.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: dolly-italic;
+    src: url("fonts/dolly-italic.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+
+@font-face {
+    font-family: dolly-roman;
+    src: url("fonts/dolly-roman.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: dolly-smallcaps;
+    src: url("fonts/dolly-smallcaps.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+
+
+@font-face {
+    font-family: Averta-Black;
+    src: url("fonts/Averta-Black.otf")  format("opentype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: Averta-Light;
+    src: url("fonts/Averta-Light.otf")  format("opentype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: Averta-Regular;
+    src: url("fonts/Averta-Regular.otf")  format("opentype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: Averta-Thin;
+    src: url("fonts/Averta-Thin.otf")  format("opentype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: averta-black-webfont;
+    src: url("fonts/averta-black-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: averta-light-webfont;
+    src: url("fonts/averta-light-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: averta-regular-webfont;
+    src: url("fonts/averta-regular-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+}
+
+
+
+
+
+/*Landing Page*/
+
+
+/*Logo*/
+
+.bar .logo {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+
+/*Kommende Vagina Parties*/
+.links {
+    text-align: left;
+}
+
+a {
+	color: #242955;
+}
+
+p strong {
+	
+	font-weight: 600;
+    color: #242955;
+}
+
+h1 {
+	font-family: "dolly-bold";
+	font-weight: 600;
+	color: #242955;
+}
+
+.h1 {
+    font-family: "dolly-bold";
+    font-weight: 600;
+    color: #242955;
+}
+
+h5 {
+	font-family: "dolly-bold";
+	font-weight: 600;
+	color: #242955;
+    font-size: 1.2em;
+}
+
+.h5 {
+    font-family: "dolly-bold";
+    font-weight: 600;
+    color: #242955;
+    font-size: 1.2em;
+}
+
+h2 {
+    font-family: "dolly-bold";
+    font-weight: 600;
+    color: #242955;
+}
+
+.h2 {
+    font-family: "dolly-bold";
+    font-weight: 600;
+    color: #242955;
+}
+
+h3 {
+	font-family: "dolly-bold";
+	font-weight: 600;
+	color: #242955;
+}
+
+.h3 {
+    font-family: "dolly-bold";
+    font-weight: 600;
+    color: #242955;
+}
+
+h4 {
+	font-family: "dolly-bold";
+	font-weight: 400;
+	font-size: 15px;
+	color: #242955;
+    font-size: 1.3em;
+}
+
+.h4 {
+    font-family: "dolly-bold";
+    font-weight: 400;
+    font-size: 15px;
+    color: #242955;
+    font-size: 1.3em;
+}
+
+.lead {
+	font-family: "Averta-Regular";
+	color: #9D9D9C;
+    font-size: 1.3em;
+    /*line-height: 1.5;*/
+}
+
+.black {
+    color: #000;
+}
+
+.averta {
+    font-size: 1.2em;
+	line-height: 1.4em;
+	color: #9D9D9C;
+}
+
+.weiss {
+	color: #000;
+}
+
+section.space--md, footer.space--md {
+
+    min-height: 45vw;
+}
+
+/*mythen*/
+
+.feature-6 p {
+    /*min-height: 6.28571429em;*/
+    min-height:4.285714em;
+}
+
+.feature:not(.boxed) {
+    margin-bottom: 0px;
+}
+
+.btn--primary, .btn--primary:visited {
+    background: #242955;
+    border-color: #242955;
+}
+
+.btn--primary .btn__text, .btn--primary:visited .btn__text {
+	font-family: "Averta-Regular";
+	font-weight: 500;
+	color: #FFF;
+
+}
+
+.btn--primary:hover {
+  background: #1D1D1B;
+}
+.btn--primary:active {
+  background: #1D1D1B;
+}
+.btn--primary-1,
+.btn--primary-1:visited {
+  background: #2c3d55;
+  border-color: #2c3d55;
+}
+
+
+button.btn, input[type="submit"].btn {
+    font-size: 0.85714286em;
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Averta-Regular";
+}
+
+input[type]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+select::-webkit-input-placeholder {
+  color: #b3b3b3;
+ /* font-size: 1.14285714em;*/
+     font-family: "Averta-Regular";
+}
+
+.text-decoration>b {
+	font-family: "Averta-Light";
+	font-weight: 600;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+
+.feature h5 {
+    margin: 0px 0 15px 0;
+}
+
+p, ul, ol, pre, table, blockquote {
+    margin-bottom: 0;
+}
+
+.titel {
+	padding-bottom: 1em;
+}
+
+.drittel {
+    flex: 0 0 50%;
+    max-width: 33.3%;
+    padding-bottom: 1em;
+
+}
+
+.strich {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.hoch>h5 {
+	font-family: "Averta-Regular";
+    font-size: 1em;
+    line-height: 1.457143em;
+    font-weight: 500;
+}
+
+section:not(.imagebg):not([class*='bg-']) + section.bg--secondary {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+section.space--xs, footer.space--xs {
+    padding-top: 3.71428571em;
+    padding-bottom: 6.714286em;
+}
+
+section.space--xxs, footer.space--xxs {
+    padding-top: 1.85714286em;
+    padding-bottom: 1em;
+}
+
+
+
+section, footer {
+    padding-top: 5.428571em;
+    /*padding-bottom: 0.42857143em;*/
+    padding-bottom: 0em;
+}
+
+
+
+.fuss {
+	padding-top: 1em!important;
+    padding-bottom: 1em!important;
+}
+
+/*abstand*/
+.abstand {
+	height:15px;
+}
+
+
+/*icons*/
+
+.dark-icon {
+    max-width: 30%;
+    margin-bottom: 1.85714286em;
+}
+
+
+/*mythos detail*/
+
+.detail {
+    max-width: 66.6%;
+}
+
+.feature-large {
+	padding-bottom: 100px;
+}
+
+.abstand-unten {
+	padding-bottom: 5.5em;
+}
+
+.flickity-prev-next-button {
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    border-radius: 0;
+    background: transparent;
+    width: 2.78571429em;
+    height: 5.57142857em;
+}
+
+.flickity-prev-next-button:not(:hover) {
+    opacity: 1;
+}
+
+.flickity-prev-next-button:before {
+    color: #242955;
+}
+
+.flickity-prev-next-button:before {
+    font-family: 'stack-interface';
+    content: "\e80c";
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.flickity-prev-next-button:hover {
+    background: transparent;
+}
+
+
+@media all and (min-width: 1024px) {
+section.space--md, footer.space--md {
+
+    min-height: 40vw;
+}
+}
+
+@media all and (max-width: 1024px) {
+section.space--md, footer.space--md {
+	padding-top: 12.142857em;
+    padding-bottom: 9.142857em;
+  /*  height: 600px;*/
+}
+section.space--xs, footer.space--xs {
+    padding-top: 0.714286em;
+    padding-bottom: 7.414286em;
+}
+
+section.space--md, footer.space--md {
+
+    min-height: 45vw;
+}
+
+}
+
+
+@media (max-width: 990px){
+.bar--absolute, .pos-fixed {
+    z-index: 99;
+    width: 100%;
+}
+.bar, pos-fixed {
+    padding: 1.85714286em 0;
+    position: fixed;
+}
+button {
+    margin-top: 0;
+}
+}
+
+
+
+
+@media all and (max-width: 768px) {
+
+.detail {
+    max-width: 100%;
+}
+
+section.space--md, footer.space--md {
+    padding-top: 11.14285714em;
+    padding-bottom: 11.14285714em;
+   /* height: 600px;*/
+}
+
+
+.feature-6 p {
+    min-height: 3.68571429em;
+}
+
+.btn--primary, .btn--primary:visited {
+    margin-bottom: 2.7em;
+}
+
+
+
+}
+
+@media all and (max-width: 414px) {
+
+.feature-6 p {
+    min-height: 2.28571429em;
+}
+
+.btn--primary, .btn--primary:visited {
+    margin-bottom: 2em;
+}
+
+}
