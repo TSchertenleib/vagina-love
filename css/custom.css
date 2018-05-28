@@ -6,60 +6,59 @@
 
 @font-face {
     font-family: dolly-bold;
-    src: url("fonts/dolly-bold.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/dolly-bold.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: dolly-italic;
-    src: url("fonts/dolly-italic.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/dolly-italic.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
 
 
 @font-face {
     font-family: dolly-roman;
-    src: url("fonts/dolly-roman.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/dolly-roman.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: dolly-smallcaps;
-    src: url("fonts/dolly-smallcaps.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/dolly-smallcaps.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
-
 
 
 @font-face {
     font-family: Averta-Black;
-    src: url("fonts/Averta-Black.otf")  format("opentype"), /* Safari, Android, iOS */
+    src: url("../fonts/Averta-Black.otf")  format("opentype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: Averta-Light;
-    src: url("fonts/Averta-Light.otf")  format("opentype"), /* Safari, Android, iOS */
+    src: url("../fonts/Averta-Light.otf")  format("opentype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: Averta-Regular;
-    src: url("fonts/Averta-Regular.otf")  format("opentype"), /* Safari, Android, iOS */
+    src: url("../fonts/Averta-Regular.otf")  format("opentype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: Averta-Thin;
-    src: url("fonts/Averta-Thin.otf")  format("opentype"), /* Safari, Android, iOS */
+    src: url("../fonts/Averta-Thin.otf")  format("opentype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: averta-black-webfont;
-    src: url("fonts/averta-black-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/averta-black-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: averta-light-webfont;
-    src: url("fonts/averta-light-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/averta-light-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
 
 @font-face {
     font-family: averta-regular-webfont;
-    src: url("fonts/averta-regular-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
+    src: url("../fonts/averta-regular-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
 }
 
 
