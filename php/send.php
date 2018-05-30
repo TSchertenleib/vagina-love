@@ -41,7 +41,7 @@ try {
 
     $mail_cus->addAddress($mail_customer);               // Name is optional
     $mail_cus->isHTML(true);                                  // Set email format to HTML
-    $mail_cus->Subject = 'Danke für ihre anmeldung bei VaginaLove am ...';
+    $mail_cus->Subject = 'Danke fuer ihre Anmeldung am Workshop von Vagina Love am '.$date;
     $mail_cus->Body    = $message;
     $mail_cus->AltBody = $message;
 
@@ -79,7 +79,7 @@ try {
     $mail_host->addAddress('info@vaginalove.ch');               // Name is optional
 
     $mail_host->isHTML(true);                                  // Set email format to HTML
-    $mail_host->Subject = 'Neue Anmeldung für'.$date;
+    $mail_host->Subject = 'Neue Anmeldung fuer den Workshop am '.$date;
     $mail_host->Body    = $message_host;
     $mail_host->AltBody = $message_host;
 
