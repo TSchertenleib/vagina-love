@@ -189,6 +189,10 @@ section.space--md, footer.space--md {
     background: #ff949b;
 }
 
+[data-overlay="5"]:before {
+    opacity: 0.1!important;
+}
+
 /*mythen*/
 
 .feature-6 p {
