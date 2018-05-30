@@ -6,17 +6,24 @@ var path;
 // Button Click
 $('.reg-btn').on('click', function(event) {
     var $this = $(this).parent().parent(); // im Form
+    
     var info_date = $this.find('.info-date').text();
+    
     var info_mail = $this.find('.info-mail').val();
     
-    console.log('Registration!');
-    console.log('date: ' + info_date );
-    console.log('mail: ' + info_mail );
-      
+    
+    
+    
+    // $($this).find("input, select").each(function  () {
+    //   if(!$(this)[0].checkValidity()){
+    //     valid = false;
+    //   }
+    // }); 
+
     if( $($this)[0].checkValidity() ){
       // true 
-      console.log('Email OK --S senden');
       bestellen(info_date, info_mail);
+      console.log('sent data to php: ' + info_mail+","+info_date+"\n");
     } else {
       // false = keine mail adresse
       console.log('Email error');
@@ -29,8 +36,8 @@ function bestellen(date, mail) {
           url: 'php/send.php',   
           type: 'POST',
           data: {
-                  mail  : date,
-                  date  : mail,
+                  date  : date,
+                  mail  : mail,
               },
           success: function(resp){
             console.log(resp);
