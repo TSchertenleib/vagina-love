@@ -15,7 +15,7 @@ require 'SMTP.php';
 $date            = $_POST['date']; // data from website
 $mail_customer   = $_POST['mail']; // data from website
 $vname           = $_POST['vname']; // data from website
-$message = $vname." mit der email: ".$mail_customer." nimmt am ".$date." teil";
+$message = " Danke fuer deine Anmeldung! Diese Mail dient als Bestaetigung. Du, " .$vname." mit der email: ".$mail_customer." nimmst am Workshop am ".$date." teil.";
 
 
 
@@ -41,7 +41,7 @@ try {
 
     $mail_cus->addAddress($mail_customer);               // Name is optional
     $mail_cus->isHTML(true);                                  // Set email format to HTML
-    $mail_cus->Subject = 'Danke fuer ihre Anmeldung am Workshop von Vagina Love am '.$date;
+    $mail_cus->Subject = 'Danke fuer deine Anmeldung am Workshop von Vagina Love am '.$date;
     $mail_cus->Body    = $message;
     $mail_cus->AltBody = $message;
 
@@ -71,7 +71,7 @@ try {
 
 
         
-    $message_host = "name:".$vname."\n emial: ".$mail_customer."\n nimmt tiel: ".$date;
+    $message_host = "Name:".$vname."\n Email: ".$mail_customer."\n nimmt teil: ".$date;
 
 
     echo("<script>console.log('PHP-log: ".$message."');</script>");
