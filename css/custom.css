@@ -183,6 +183,12 @@ section.space--md, footer.space--md {
     min-height: 45vw;
 }
 
+
+/*background image holder*/
+[data-overlay].image--light:before {
+    background: #ff949b;
+}
+
 /*mythen*/
 
 .feature-6 p {
