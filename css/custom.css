@@ -342,6 +342,10 @@ p, ul, ol, pre, table, blockquote {
     padding-top: 2.8em;
 }
 
+.anmelden:last-child {
+    padding-bottom: 3em;
+}
+
 .strich {
     border-bottom: 1px solid #ebebeb;
     /*font-size: 15.1px;*/
@@ -353,6 +357,7 @@ p, ul, ol, pre, table, blockquote {
     line-height: 1.437143em;
     font-weight: 500;
 }
+
 
 
 
@@ -463,6 +468,13 @@ section, footer {
     overflow: hidden;
 }
 
+
+
+/*footer*/
+
+.bg--primary {
+    background: #242955;
+}
 
 @media all and (min-width: 1024px) {
 section.space--md, footer.space--md {
