@@ -106,6 +106,10 @@ body {
     opacity: 0.9;
 }
 
+.menu-vertical li:not(:hover):not(.dropdown--active) {
+    opacity: 1;
+}
+
 /*Logo*/
 
 .bar .logo {
