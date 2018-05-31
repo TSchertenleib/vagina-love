@@ -388,7 +388,7 @@ section.space--xxs, footer.space--xxs {
 
 
 section, footer {
-    padding-top: 7.428571em;
+    padding-top: 6.428571em;
     /*padding-bottom: 0.42857143em;*/
     padding-bottom: 0em;
 }
@@ -504,7 +504,7 @@ section.space--md, footer.space--md {
 }
 section.space--xs, footer.space--xs {
     padding-top: 0.714286em;
-    padding-bottom: 7.414286em;
+    padding-bottom: 6.414286em;
 }
 
 section.space--md, footer.space--md {
