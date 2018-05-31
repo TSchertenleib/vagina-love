@@ -84,6 +84,16 @@ body {
     font-size: 20px;
 }
 
+.modal-container .modal-content .modal-close-cross:before {
+    content: '\00D7';
+    font-size: 4.5em;
+}
+
+.menu-fullscreen .modal-content .modal-close-cross {
+    right: 4.714286em;
+    top: 3em;
+}
+
 /*Logo*/
 
 .bar .logo {
