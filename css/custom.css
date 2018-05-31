@@ -54,8 +54,13 @@ body {
 }
 
 
+.mob {
+    display: inline!important;
+}
 
-
+.resp {
+    display: none!important;
+}
 
 
 
@@ -673,6 +678,19 @@ a.feature img:first-child:not(:last-child) {
 
 .feature-large {
     padding-bottom: 50px;
+}
+
+.mobile-center {
+    text-align: center;
+}
+
+.mob {
+    display: none!important;
+}
+
+.resp {
+    display:inline!important;
+
 }
 
 }
