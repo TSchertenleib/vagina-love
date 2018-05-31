@@ -67,6 +67,13 @@
 
 /*Landing Page*/
 
+/*navigation*/
+.menu-vertical li a {
+    font-weight: bold;
+    font-family: "averta";
+    text-decoration: underline;
+    font-size: 20px;
+}
 
 /*Logo*/
 
@@ -101,6 +108,11 @@ h1 {
     font-family: "dolly-bold";
     font-weight: 600;
     color: #242955;
+}
+
+h1:not(:last-child), .h1:not(:last-child) {
+    margin-bottom: 0.35090909090909em;
+    line-height: 1.2;
 }
 
 h5 {
@@ -161,7 +173,11 @@ h4 {
 	font-family: "Averta-Regular";
 	color: #9D9D9C;
     font-size: 1.3em;
-    /*line-height: 1.5;*/
+    line-height: 1.5;
+}
+
+.lead:not(:last-child) {
+    margin-bottom: 0.5em;
 }
 
 .black {
@@ -170,9 +186,11 @@ h4 {
 
 .averta {
     font-size: 1.2em;
-	line-height: 1.4em;
+	line-height: 1.35em;
 	color: #9D9D9C;
 }
+
+
 
 .weiss {
 	color: #000;
@@ -183,6 +201,9 @@ section.space--md, footer.space--md {
     min-height: 45vw;
 }
 
+.title-link {
+    font-size: 16px;
+}
 
 /*secondary bg*/
 .bg--secondary {
@@ -201,9 +222,19 @@ section.space--md, footer.space--md {
 
 /*mythen*/
 
+a.feature img:first-child:not(:last-child) {
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+}
+
+.abstand-box {
+    padding-bottom: 0px;
+
+}
+
 .feature-6 p {
     /*min-height: 6.28571429em;*/
-    min-height:4.285714em;
+    min-height:4em;
 }
 
 .feature:not(.boxed) {
@@ -236,11 +267,23 @@ section.space--md, footer.space--md {
 
 
 button.btn, input[type="submit"].btn {
-    font-size: 0.85714286em;
+    font-size: 16px;
     font-weight: 700;
     padding-left: 0;
     padding-right: 0;
     font-family: "Averta-Regular";
+
+}
+
+button, input[type="submit"] {
+    height: 2.85em;
+}
+
+input, button, select, optgroup, textarea {
+    margin: 0;
+    font-family: "Averta-Regular";
+    font-size: 16.3px;
+    line-height: inherit;
 }
 
 input[type]::-webkit-input-placeholder,
@@ -271,23 +314,24 @@ p, ul, ol, pre, table, blockquote {
 	padding-bottom: 1em;
 }
 
-.drittel {
-    flex: 0 0 50%;
-    max-width: 33.3%;
-    padding-bottom: 1em;
-
+.anmelden {
+    padding-top: 2.8em;
 }
 
 .strich {
     border-bottom: 1px solid #ebebeb;
+    /*font-size: 15.1px;*/
 }
 
 .hoch>h5 {
 	font-family: "Averta-Regular";
-    font-size: 1em;
-    line-height: 1.457143em;
+    font-size: 16.3px;
+    line-height: 1.437143em;
     font-weight: 500;
 }
+
+
+
 
 section:not(.imagebg):not([class*='bg-']) + section.bg--secondary {
     border-top: 1px solid #ebebeb;
@@ -300,7 +344,7 @@ section.space--xs, footer.space--xs {
 }
 
 section.space--xxs, footer.space--xxs {
-    padding-top: 1.85714286em;
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 
@@ -377,6 +421,25 @@ section, footer {
 }
 
 
+/*das projekt*/
+.face {
+    width: 120%!important;
+    height: 100%;
+}
+
+.feature-klein {
+   /* height: 80%;*/
+    padding-bottom: 0px;
+}
+
+.imageblock > .container, .imageblock > div[class*='col-']:not(.imageblock__content) {
+    padding-top: 7.42857143em;
+     padding-bottom: 3em; 
+    float: none;
+    overflow: hidden;
+}
+
+
 @media all and (min-width: 1024px) {
 section.space--md, footer.space--md {
 
@@ -392,7 +455,7 @@ section.space--md, footer.space--md {
 }
 section.space--xs, footer.space--xs {
     padding-top: 0.714286em;
-    padding-bottom: 7.414286em;
+    padding-bottom: 5.414286em;
 }
 
 section.space--md, footer.space--md {
@@ -417,10 +480,76 @@ button {
 }
 }
 
+@media all and (max-width: 767px) {
+a.feature {
+    margin-bottom: 0.2057143em !important;
+}
 
+.modal-container .modal-content > .modal-close-cross {
+    top: 0em;
+    /*background: #222;
+    width: 3em;
+    height: 3em;*/
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
 
+.modal-container .modal-content .modal-close-cross:before {
+    content: '\00D7';
+    font-size: 4em;
+}
+
+.modal-container .modal-content > .modal-close-cross {
+    top: 0em;
+    background: transparent;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.imageblock .imageblock__content {
+    position: relative;
+    min-height: 28.571429em;
+}
+
+}
 
 @media all and (max-width: 768px) {
+
+.background-image-holder {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    background-position: 50% 30% !important;
+    z-index: 0;
+    transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    opacity: 0;
+    background: #252525;
+}
+
+.face {
+    width: 135%!important;
+    height: 100%;
+}
+
+
+.abstand-box {
+    padding-bottom: 20px;   
+    
+}
+
+section.space--xs, footer.space--xs {
+    padding-top: 0.714286em;
+    padding-bottom: 4.414286em;
+}
+
+
 
 .detail {
     max-width: 100%;
@@ -446,6 +575,25 @@ section.space--md, footer.space--md {
 }
 
 @media all and (max-width: 414px) {
+
+
+
+.face {
+    width: 100%!important;
+    height: 100%;
+}
+
+
+.abstand-box {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebebeb;    
+    
+}
+
+a.feature img:first-child:not(:last-child) {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
 
 .feature-6 p {
     min-height: 2.28571429em;
