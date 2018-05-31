@@ -191,8 +191,10 @@ h4 {
 .lead {
 	font-family: "Averta-Regular";
 	color: #808080;
-    font-size: 1.3em;
-    line-height: 1.5;
+/*    font-size: 1.3em;
+    line-height: 1.5;*/
+    font-size: 20px;
+    line-height: 26px;
 }
 
 .lead:not(:last-child) {
@@ -204,14 +206,18 @@ h4 {
 }
 
 .averta {
+/*    font-size: 1.2em;
+	line-height: 1.35em;*/
     font-size: 1.2em;
-	line-height: 1.35em;
+    line-height: 1.35em;
 	color: #808080;
 }
 
 .averta-small {
-    font-size: 1em;
-    line-height: 1.3em;
+/*    font-size: 1em;
+    line-height: 1.3em;*/
+    font-size: 16.3px;
+    line-height: 20px;
     color: #808080;  
 }
 
@@ -226,7 +232,7 @@ section.space--md, footer.space--md {
 }
 
 .title-link {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*secondary bg*/
@@ -339,11 +345,11 @@ p, ul, ol, pre, table, blockquote {
 }
 
 .anmelden {
-    padding-top: 2.8em;
+    padding-top: 3em;
 }
 
 .anmelden:last-child {
-    padding-bottom: 3em;
+    padding-bottom: 4.5em;
 }
 
 .strich {
@@ -359,7 +365,9 @@ p, ul, ol, pre, table, blockquote {
 }
 
 
-
+.tiefer {
+    padding-top: 5px;
+}
 
 
 section:not(.imagebg):not([class*='bg-']) + section.bg--secondary {
@@ -380,7 +388,7 @@ section.space--xxs, footer.space--xxs {
 
 
 section, footer {
-    padding-top: 5.428571em;
+    padding-top: 7.428571em;
     /*padding-bottom: 0.42857143em;*/
     padding-bottom: 0em;
 }
@@ -449,6 +457,11 @@ section, footer {
     background: transparent;
 }
 
+.kursiv {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 17px;
+}
 
 /*das projekt*/
 .face {
@@ -491,7 +504,7 @@ section.space--md, footer.space--md {
 }
 section.space--xs, footer.space--xs {
     padding-top: 0.714286em;
-    padding-bottom: 5.414286em;
+    padding-bottom: 7.414286em;
 }
 
 section.space--md, footer.space--md {
@@ -551,6 +564,13 @@ a.feature {
     min-height: 28.571429em;
 }
 
+.switchable .row > div[class*='col-']:last-child:not(:only-child) {
+    margin-top: 4.857143em;
+}
+
+.feature-large {
+    padding-bottom: 75px;
+}
 }
 
 @media all and (max-width: 768px) {
@@ -642,6 +662,10 @@ a.feature img:first-child:not(:last-child) {
 
 .btn--primary, .btn--primary:visited {
     margin-bottom: 2em;
+}
+
+.feature-large {
+    padding-bottom: 50px;
 }
 
 }
