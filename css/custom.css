@@ -1,5 +1,14 @@
 /*! Place your custom styles here */
 
+body {
+    background: #fff; 
+    color: #444; 
+    font-family: "averta";
+    padding:0;
+    margin:0;
+    font-size: 100%
+}
+
 
 /*Fonts*/
 
@@ -171,7 +180,7 @@ h4 {
 
 .lead {
 	font-family: "Averta-Regular";
-	color: #9D9D9C;
+	color: #808080;
     font-size: 1.3em;
     line-height: 1.5;
 }
@@ -187,9 +196,14 @@ h4 {
 .averta {
     font-size: 1.2em;
 	line-height: 1.35em;
-	color: #9D9D9C;
+	color: #808080;
 }
 
+.averta-small {
+    font-size: 1em;
+    line-height: 1.3em;
+    color: #808080;  
+}
 
 
 .weiss {
@@ -207,7 +221,7 @@ section.space--md, footer.space--md {
 
 /*secondary bg*/
 .bg--secondary {
-    background: #F9F9F9;
+    background: #fafafa;
 }
 
 
