@@ -18,15 +18,15 @@ label {margin-bottom: 5px;}
 
 .error {color: red}
 
-body {
+/*body {
     background: #fff; 
     color: #444; 
-    /*font-family: "'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif";*/
-    font-family: "averta";
+    font-family: "'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif";
+    font-family: "averta-regular-webfont";
     padding:0;
     margin:0;
     font-size: 100%
-}
+}*/
 
 header h1 {text-align: center;}
 article {max-width: 35em; margin: 0 auto;}

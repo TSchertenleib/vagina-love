@@ -1,74 +1,60 @@
 /*! Place your custom styles here */
 
+/*Fonts*/
+
+
+@font-face {
+    font-family: dolly-bold;
+    src: url("/fonts/dolly-bold.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: dolly-italic;
+    src: url("/fonts/dolly-italic.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+    font-family: dolly-roman;
+    src: url("/fonts/dolly-roman.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: dolly-smallcaps;
+    src: url("/fonts/dolly-smallcaps.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+
+
+
+@font-face {
+    font-family: averta-black-webfont;
+    src: url("/fonts/averta-black-webfont.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: averta-light-webfont;
+    src: url("/fonts/averta-light-webfont.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: averta-regular-webfont;
+    src: url("/fonts/averta-regular-webfont.ttf")  format("truetype"); /* Safari, Android, iOS */
+}
+
+
+
 body {
     background: #fff; 
     color: #444; 
-    font-family: "averta";
+    font-family: "averta-regular-webfont"!important;
     padding:0;
     margin:0;
     font-size: 100%
 }
 
 
-/*Fonts*/
 
-
-@font-face {
-    font-family: dolly-bold;
-    src: url("../fonts/dolly-bold.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: dolly-italic;
-    src: url("../fonts/dolly-italic.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
-
-
-@font-face {
-    font-family: dolly-roman;
-    src: url("../fonts/dolly-roman.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: dolly-smallcaps;
-    src: url("../fonts/dolly-smallcaps.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
-
-
-@font-face {
-    font-family: Averta-Black;
-    src: url("../fonts/Averta-Black.otf")  format("opentype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: Averta-Light;
-    src: url("../fonts/Averta-Light.otf")  format("opentype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: Averta-Regular;
-    src: url("../fonts/Averta-Regular.otf")  format("opentype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: Averta-Thin;
-    src: url("../fonts/Averta-Thin.otf")  format("opentype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: averta-black-webfont;
-    src: url("../fonts/averta-black-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: averta-light-webfont;
-    src: url("../fonts/averta-light-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
-
-@font-face {
-    font-family: averta-regular-webfont;
-    src: url("../fonts/averta-regular-webfont.ttf")  format("truetype"), /* Safari, Android, iOS */
-}
 
 
 
@@ -78,8 +64,8 @@ body {
 
 /*navigation*/
 .menu-vertical li a {
-    font-weight: bold;
-    font-family: "averta";
+    /*font-weight: bold;*/
+    font-family: "averta-black-webfont";
     text-decoration: underline;
     font-size: 20px;
 }
@@ -189,7 +175,7 @@ h4 {
 }
 
 .lead {
-	font-family: "Averta-Regular";
+	font-family: "averta-regular-webfont";
 	color: #808080;
 /*    font-size: 1.3em;
     line-height: 1.5;*/
@@ -277,7 +263,7 @@ a.feature img:first-child:not(:last-child) {
 }
 
 .btn--primary .btn__text, .btn--primary:visited .btn__text {
-	font-family: "Averta-Regular";
+	font-family: "averta-regular-webfont";
 	font-weight: 500;
 	color: #FFF;
 
@@ -301,7 +287,7 @@ button.btn, input[type="submit"].btn {
     font-weight: 700;
     padding-left: 0;
     padding-right: 0;
-    font-family: "Averta-Regular";
+    font-family: "averta-regular-webfont";
 
 }
 
@@ -311,7 +297,7 @@ button, input[type="submit"] {
 
 input, button, select, optgroup, textarea {
     margin: 0;
-    font-family: "Averta-Regular";
+    font-family: "averta-regular-webfont";
     font-size: 16.3px;
     line-height: inherit;
 }
@@ -321,12 +307,12 @@ textarea::-webkit-input-placeholder,
 select::-webkit-input-placeholder {
   color: #b3b3b3;
  /* font-size: 1.14285714em;*/
-     font-family: "Averta-Regular";
+     font-family: "averta-regular-webfont";
 }
 
 .text-decoration>b {
-	font-family: "Averta-Light";
-	font-weight: 600;
+	font-family: "averta-black-webfont";
+	
 	text-decoration: underline;
 	cursor: pointer;
 
@@ -358,7 +344,7 @@ p, ul, ol, pre, table, blockquote {
 }
 
 .hoch>h5 {
-	font-family: "Averta-Regular";
+	font-family: "averta-regular-webfont";
     font-size: 16.3px;
     line-height: 1.437143em;
     font-weight: 500;
