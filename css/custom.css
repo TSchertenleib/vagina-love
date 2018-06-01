@@ -386,6 +386,13 @@ p, ul, ol, pre, table, blockquote {
     font-weight: 500;
 }
 
+/*form {
+    min-width: 100%;
+}*/
+
+form {
+    min-width: 100%;
+}
 
 .tiefer {
     padding-top: 7px;
@@ -522,6 +529,14 @@ h3, .h3 {
     background: #242955;
 }
 
+
+.menu-fullscreen .modal-content .modal-close-cross {
+    right: 12.414286em;
+    top: 2.2em;
+ 
+    color: #242955;
+}
+
 @media all and (min-width: 1024px) {
 section.space--md, footer.space--md {
 
@@ -545,9 +560,22 @@ section.space--md, footer.space--md {
     min-height: 45vw;
 }
 
+.menu-fullscreen .modal-content .modal-close-cross {
+    right: 13px;
+    top: 13px;
+    
 }
 
+.modal-container .modal-content .modal-close-cross {
+    padding-right: 42px;
+    padding-top: 15px;
+}
 
+}
+
+.mobile-center {
+    text-align: center;
+}
 @media (max-width: 990px){
 .bar--absolute, .pos-fixed {
     z-index: 99;
@@ -608,6 +636,11 @@ a.feature {
 
 @media all and (max-width: 768px) {
 
+.modal-container .modal-content .modal-close-cross {
+    padding-right: 34px;
+    padding-top: 9px;
+}
+
 .background-image-holder {
     position: absolute;
     height: 100%;
@@ -629,8 +662,9 @@ a.feature {
 
 
 .abstand-box {
-    padding-bottom: 20px;   
-    
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 section.space--xs, footer.space--xs {
@@ -682,6 +716,10 @@ section.space--md, footer.space--md {
     padding-bottom: 15px;
     border-bottom: 1px solid #ebebeb;    
     
+}
+
+.letzte-box {
+     border-bottom: 1px solid white;    
 }
 
 a.feature img:first-child:not(:last-child) {
