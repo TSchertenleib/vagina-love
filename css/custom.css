@@ -306,10 +306,12 @@ a.feature img:first-child:not(:last-child) {
 }
 
 .btn--primary:hover {
-  background: #1D1D1B;
+  background: #2c3269;
+  /*opacity: 0.9;*/
 }
 .btn--primary:active {
-  background: #1D1D1B;
+  background: #2c3269;
+  /*opacity: 0.9;*/
 }
 .btn--primary-1,
 .btn--primary-1:visited {
