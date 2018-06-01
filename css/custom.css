@@ -417,7 +417,7 @@ section.space--xxs, footer.space--xxs {
 
 
 section, footer {
-    padding-top: 6.428571em;
+    padding-top: 5.428571em;
     /*padding-bottom: 0.42857143em;*/
     padding-bottom: 0em;
 }
@@ -454,7 +454,11 @@ section, footer {
 }
 
 .abstand-unten {
-	padding-bottom: 5.5em;
+	    padding-bottom: 3.5em;
+}
+
+.abstand-groesser {
+        padding-bottom: 5.5em!important;    
 }
 
 .text-block h3, .text-block .h3 {
@@ -551,8 +555,8 @@ section.space--md, footer.space--md {
   /*  height: 600px;*/
 }
 section.space--xs, footer.space--xs {
-    padding-top: 0.714286em;
-    padding-bottom: 6.414286em;
+    padding-top: 0;
+    padding-bottom: 5.414286em;
 }
 
 section.space--md, footer.space--md {
