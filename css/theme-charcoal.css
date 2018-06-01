@@ -1261,7 +1261,7 @@ body:not(.dropdowns--hover) .dropdown.dropdown--hover:hover > .dropdown__contain
 }
 /**! 12. Form Elements **/
 form {
-  max-width: 100%;
+  min-width: 100%;
 }
 form + form {
   margin-top: 30px;
