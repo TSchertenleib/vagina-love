@@ -255,6 +255,7 @@ section.space--md, footer.space--md {
 
 .title-link {
     font-size: 20px;
+    padding-bottom: 1.2em;
 }
 
 /*secondary bg*/
@@ -273,6 +274,10 @@ section.space--md, footer.space--md {
 }
 
 /*mythen*/
+
+.platz {
+    padding-top: 3em;
+}
 
 a.feature img:first-child:not(:last-child) {
     margin-bottom: 0.2em;
@@ -557,7 +562,7 @@ section.space--md, footer.space--md {
   /*  height: 600px;*/
 }
 section.space--xs, footer.space--xs {
-    padding-top: 0;
+    padding-top: 2em;
     padding-bottom: 5.414286em;
 }
 
@@ -638,6 +643,9 @@ a.feature {
 .feature-large {
     padding-bottom: 75px;
 }
+
+
+
 }
 
 @media all and (max-width: 768px) {
