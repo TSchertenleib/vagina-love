@@ -215,8 +215,8 @@ h4 {
 	color: #808080;
 /*    font-size: 1.3em;
     line-height: 1.5;*/
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .lead:not(:last-child) {
@@ -238,8 +238,8 @@ h4 {
 .averta-small {
 /*    font-size: 1em;
     line-height: 1.3em;*/
-    font-size: 16.3px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
     color: #808080;  
 }
 
@@ -557,7 +557,7 @@ section.space--md, footer.space--md {
 
 @media all and (max-width: 1024px) {
 section.space--md, footer.space--md {
-	padding-top: 12.142857em;
+	padding-top: 11.142857em;
     padding-bottom: 9.142857em;
   /*  height: 600px;*/
 }
