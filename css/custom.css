@@ -273,6 +273,20 @@ section.space--md, footer.space--md {
     opacity: 0.1!important;
 }
 
+.background-image-holder {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    background-position: 50% 0% !important;
+    z-index: 0;
+    transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    opacity: 0;
+    background: #252525;
+}
+
 /*mythen*/
 
 .platz {
@@ -548,6 +562,10 @@ h3, .h3 {
     color: #242955;
 }
 
+.mobile-center {
+    text-align: center;
+}
+
 @media all and (min-width: 1024px) {
 section.space--md, footer.space--md {
 
@@ -584,8 +602,18 @@ section.space--md, footer.space--md {
 
 }
 
-.mobile-center {
-    text-align: center;
+.background-image-holder {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover !important;
+    background-position: 50% 0% !important;
+    z-index: 0;
+    transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    opacity: 0;
+    background: #252525;
 }
 @media (max-width: 990px){
 .bar--absolute, .pos-fixed {
